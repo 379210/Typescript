@@ -14,7 +14,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
     function getTotal() {
         let total = 0;
         for (let i = 0; i < products.length; i++) {
-            total += products[i].prize;
+            total += products[i]?.prize || 0;
         }
         return total;
     }
