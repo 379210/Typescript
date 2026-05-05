@@ -1,4 +1,5 @@
-(async ()=> {
+console.log('ejecutando archivo demos');
+async () => {
   const myCart = [];
   interface Product {
     id: number;
@@ -6,10 +7,10 @@
   }
   const products: Product[] = [];
   const limit = 2;
-
+  
   async function getProducts() {
     const rta = await fetch('http://api.escuelajs.co/api/v1/products', {
-      method: 'GET'
+      method: 'GET',
     });
     const data = await rta.json();
     products.concat(data);
@@ -21,7 +22,7 @@
     }
     return total;
   }
-  function addProduct(index:any) {
+  function addProduct(index: any) {
     if (getTotal() <= limit) {
       myCart.push(products[index]);
     }
@@ -34,8 +35,9 @@
   console.log(total);
   const person = {
     name: 'Nicolas',
-    lastName: 'Molina'
-  }
+    lastName: 'Molina',
+  };
   // const rta = person +  limit;
-  // console.log(rta);
-});
+  export function saludar(){console.log("Hola mundo")}
+  console.log(person);
+};
