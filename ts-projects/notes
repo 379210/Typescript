@@ -1,0 +1,8 @@
+"npx tsc": para compilar archivos ts a js.
+
+"npx tsx": para solo ejecutar archivos ts sin conversión.
+
+"node */*.js": para ejecutar archivos js.
+
+
+

@@ -1,5 +1,8 @@
 console.log('ejecutando archivo demos');
-async () => {
+export function saludar() {
+  console.log('Hola mundo');
+}
+(async () => {
   const myCart = [];
   interface Product {
     id: number;
@@ -7,7 +10,7 @@ async () => {
   }
   const products: Product[] = [];
   const limit = 2;
-  
+
   async function getProducts() {
     const rta = await fetch('http://api.escuelajs.co/api/v1/products', {
       method: 'GET',
@@ -38,6 +41,6 @@ async () => {
     lastName: 'Molina',
   };
   // const rta = person +  limit;
-  export function saludar(){console.log("Hola mundo")}
+
   console.log(person);
-};
+})();
