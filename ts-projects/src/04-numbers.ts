@@ -8,7 +8,7 @@
   costumerAge = costumerAge + 1;
   console.log('costumerAge', costumerAge);
 
-  let productInStock: number;
+  let productInStock: number = 10;
   console.log('productInStock', productInStock);
   if (productInStock > 10) {
     console.log('is greater');

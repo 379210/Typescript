@@ -6,12 +6,14 @@
   prices.push(12121212);
   let products = ['hola', true];
   products.push(false);
-  let mixed: (number | string | boolean | Object)[] = ['hola', true];
-  mixed.push(12);
+  let mixed = ['hola', true];
+  // mixed.push(12);
   mixed.push('as');
   mixed.push(true);
-  mixed.push({});
-  mixed.push([]);
+  // mixed.push({});
+  // mixed.push([]);
   let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   numbers.map((item) => item * 2);
 })();
+export {};
+//# sourceMappingURL=07-arrays.js.map

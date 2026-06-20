@@ -1,13 +1,13 @@
-(() => {
-  let myProductName = 'Product 1';
-  let myProductPrice = 123;
+// (() => {
+//   let myProductName = 'Product 1';
+//   let myProductPrice = 123;
 
-  let myProductName = 'change';
-  myProductName.toLowerCase();
+//   let myProductName = 'change';
+//   myProductName.toLowerCase();
 
-  myProductPrice.toFixed();
+//   myProductPrice.toFixed();
 
-  const myProductStock = 1000;
+//   const myProductStock = 1000;
 
-  const myProductName2 = 'Product 1';
-})();
+//   const myProductName2 = 'Product 1';
+// })();
